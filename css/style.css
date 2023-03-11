@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header{
+    border-bottom: 3px solid #32b9cd;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
+/* tira a linha que fica embaixo dos links datag <a> */
+.header a{
+    text-decoration: none;
+    color: #e3b062
+}
+
+.agora{
+    font-weight: 800;
+    color: #e3b062                                                                                                                                                                               CCC
+}
+
+.navbar{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: #e3b062
+}
+
+.titulo{
+    width: fit-content;
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+.foto{
+    width: 500px;
+    height: 700px;
+}
